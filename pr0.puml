@@ -1,19 +1,19 @@
 @startuml
 
-'Определение границы системы
+
 package System {
 
-  'Определение актеров
+
   actor User
   actor Admin
 
-  'Определение вариантов использования
+ 
   usecase "Регистрация" as UC1
   usecase "Авторизация" as UC2
   usecase "Просмотр контента" as UC3
   usecase "Управление контентом" as UC4
 
-  'Связи между актерами и вариантами использования
+
   User --> UC1
   User --> UC2
   User --> UC3
